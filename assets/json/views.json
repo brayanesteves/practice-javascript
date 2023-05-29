@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Eyes",
+        "nameFolder":"eyes",
+        "views":[
+            {
+                "name":"Eyes - years 2014",
+                "nameFolder":"eyes-years2014",
+                "path":"/eyes-years2014/",
+                "fileMain":"index.html"
+            },
+            {
+                "name":"Eyes - Refactor",
+                "nameFolder":"eyes-refactor",
+                "path":"/eyes-refactor/",
+                "fileMain":"index.html"
+            }
+        ]
+    }
+]
