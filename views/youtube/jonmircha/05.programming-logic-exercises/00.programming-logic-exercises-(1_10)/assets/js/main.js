@@ -41,6 +41,8 @@ console.log("<.SOLUTION N°2>");
 console.log("<.EXERCISE 1>");
 // <.EXERCISE 1> //
 
+console.log();
+
 // <EXERCISE 2> //
 console.log("<EXERCISE 2>");
 console.log("<SOLUTION N°0>");
@@ -61,6 +63,8 @@ recortarTexto("", 5);
 console.log("<.SOLUTION N°1>");
 console.log("<.EXERCISE 2>");
 // <.EXERCISE 2> //
+
+console.log();
 
 // <EXERCISE 3> //
 console.log("<EXERCISE 3>");
@@ -83,6 +87,8 @@ cadenaAArreglo("", "-");
 console.log("<.SOLUTION N°1>");
 console.log("<.EXERCISE 3>");
 // <.EXERCISE 3> //
+
+console.log();
 
 // <EXERCISE 4> //
 console.log("<EXERCISE 4>");
