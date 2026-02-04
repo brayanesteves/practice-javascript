@@ -13,7 +13,7 @@ d.addEventListener("keypress", async (e) => {
             try {
                 $shows.innerHTML = `
                     <div class="loader">
-                        <img src="../img/svg/loader.svg" alt="Cargando..." />
+                        <img src="./assets/img/svg/loader.svg" alt="Cargando..." />
                     </div>
                 `;
 
