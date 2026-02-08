@@ -34,6 +34,8 @@ function getSiteData() {
 function getPosts() {
     fetch(POSTS).then((res) => res.ok ? res.json() : Promise.reject(res)).then((json) => {
         // console.log(json); // For Example. Output: (10) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+        
+    }).catch((err) => {
         console.log(err); // For Example. Output: 
         let message = err.statusText || "Ocurrio un error";
         $posts.innerHTML = `<p>Error ${err.status}: ${message}</p>`;
