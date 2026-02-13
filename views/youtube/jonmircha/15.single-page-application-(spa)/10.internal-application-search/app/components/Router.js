@@ -37,10 +37,6 @@ export async function Router() {
             url: `${api.SEARCH}?search=${query}`,
             cbSuccess:(search) => {
                 // console.log(search); // For Example. Output: (10) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
-                let html = "";
-                search.forEach((post) => (html += PostCard(post)));
-                d.querySelector(".loader").style.display = "none";
-                $main.innerHTML = html;
             },
         });
 
