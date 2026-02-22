@@ -32,12 +32,6 @@ function renderTodos() {
         $todoList.appendChild($noTaskMessage);
         return;
     }
-
-    state.todos.forEach((todo) => {
-        const $li = d.createElement("li");
-        $li.textContent = todo.title;
-        $todoList.appendChild($li);
-    });
 }
 
 /**
