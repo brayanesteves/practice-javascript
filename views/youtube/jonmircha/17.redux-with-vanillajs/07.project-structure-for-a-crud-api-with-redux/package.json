@@ -1,0 +1,15 @@
+{
+  "name": "07.project-structure-for-a-crud-api-with-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx json-server --watch ./database/json/db.json --port 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server":"^1.0.0-beta.3"
+  }
+}
