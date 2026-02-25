@@ -1,0 +1,39 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Tarea 1",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "title": "Tarea 2",
+      "completed": true
+    },
+    {
+      "id": "3",
+      "title": "Tarea 33",
+      "completed": false
+    },
+    {
+      "id": "9a7efdc0-b5b3-4758-965b-ebfb75fce129",
+      "title": "Tarea 4",
+      "completed": false
+    },
+    {
+      "id": "95116eb7-6d83-4d73-9983-03397f05da6a",
+      "title": "Tarea 5",
+      "completed": false
+    },
+    {
+      "id": "c34c5ecb-3f61-4394-8b1c-49aea9e90910",
+      "title": "Tarea 6",
+      "completed": false
+    },
+    {
+      "id": "b57277f5-c20f-45cc-9eb4-08f19a386ab7",
+      "title": "Tarea 8",
+      "completed": ""
+    }
+  ]
+}
