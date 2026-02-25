@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD con REDUX y Vanilla JS</title>
+    <link rel="stylesheet" href="./assets/css/crud.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+<body>
+    
+    <main class="container">
+        <h1>CRUD con REDUX y Vanilla JS</h1>
+        <!--<a href="./views/contador.html" class="back-to-home">Contador con Redux</a>-->
+        <form class="todo-form">
+            <h2>Añadir / Editar</h2>
+
+            <input type="hidden" id="todo-id" />
+            <input type="hidden" id="todo-completed" />
+            <input type="text" id="todo-title" />
+            <button class="btn-add" id="add-todo">Añadir / Editar</button>
+        </form>
+
+        <section>
+            <h2>Lista de Tareas</h2>
+            <ul id="todo-list"></ul>
+        </section>
+    </main>
+
+    <script src="./assets/js/store-crud.js" type="module"></script>
+    <script src="./assets/js/crud.js" type="module"></script>
+</body>
+</html>
